@@ -1,0 +1,36 @@
+.bgImg {
+    background: url('/bg-index.png') 0 0;
+}
+.timeline {
+    @apply max-w-full mx-auto relative sm:absolute sm:left-1/2 sm:pl-0 border-l-4 border-solid border-gray-800 pb-10;
+}
+
+.timeline li {
+    @apply relative w-196 lg:w-358;
+}
+
+.timeline li:nth-child(odd) {
+    @apply left-0;
+}
+
+.timeline li div:first-child {
+    @apply relative w-196 lg:w-258;
+}
+
+.timeline li:nth-child(odd) div {
+    /*@apply border-l border-l-4 border-solid border-gray-800;*/
+}
+
+.timeline li:nth-child(even) {
+    @apply left-0 sm:-left-200 md:-left-200 lg:-left-358 my-10 md:my-0 md:flex-row-reverse space-x-4 md:space-x-reverse md:flex-row;
+}
+
+.timeline li:nth-child(even) div {
+    /*@apply border-l-4 md:border-r-4 md:border-l-0 border-solid border-gray-800;*/
+}
+
+.timeline li:nth-child(even) span {
+    @apply ml-5 md:mr-5;
+}
+
+

@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build && next export",
+    "start": "next start",
+    "prettier": "npx prettier --write ./pages"
+  },
+  "dependencies": {
+    "@metamask/detect-provider": "^1.2.0",
+    "@walletconnect/web3-provider": "^1.6.6",
+    "@web3-react/core": "^6.1.9",
+    "axios": "^0.21.4",
+    "chai": "^4.3.4",
+    "debug": "^2.6.9",
+    "ethers": "^5.4.7",
+    "fortmatic": "^2.2.1",
+    "ipfs-http-client": "^53.0.1",
+    "next": "latest",
+    "next-images": "^1.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1",
+    "react-loader-spinner": "^4.0.0",
+    "wallet-provider": "github:monetha/wallet-provider",
+    "web3": "^1.6.0",
+    "web3-core": "^1.5.3",
+    "web3-utils": "^1.6.0",
+    "web3modal": "^1.9.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "prettier": "^2.4.0",
+    "tailwindcss": "^2.2.4"
+  }
+}

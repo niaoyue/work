@@ -1,0 +1,4 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "solidity.packageDefaultDependenciesDirectory": "contracts/node_modules"
+}
