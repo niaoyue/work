@@ -6586,8 +6586,9 @@
   "resolved" "https://registry.npmjs.org/vm-browserify/-/vm-browserify-1.1.2.tgz"
   "version" "1.1.2"
 
-"wallet-provider@github:monetha/wallet-provider":
-  "resolved" "git+ssh://git@github.com/monetha/wallet-provider.git#5f48e3e41820aebfab336924a38e9fd16e8fe188"
+"wallet-provider@https://github.com/monetha/wallet-provider.git":
+  "version" "1.1.1"
+  "resolved" "https://github.com/monetha/wallet-provider.git#5f48e3e41820aebfab336924a38e9fd16e8fe188"
   dependencies:
     "bn.js" "^5.0.0"
     "web3" "1.0.0-beta.55"
