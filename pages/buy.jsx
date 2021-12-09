@@ -813,7 +813,7 @@ const Buy = () => {
             )}
 
             {selectedAccount && (
-              <a href="/profile.html" target="_blank" className="text-red-600 font-medium leading-none text-xs mr-2 hover:underline">
+              <a href="/profile" target="_blank" className="text-red-600 font-medium leading-none text-xs mr-2 hover:underline">
                 {selectedAccount.slice(0, 6) +
                   '...' +
                   selectedAccount.slice(-4)}
