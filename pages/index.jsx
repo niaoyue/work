@@ -69,7 +69,7 @@ function Index() {
           </div>
           <div className="flex justify-center">
             <a
-              href="/buy.html"
+              href="/buy"
               className="flex justify-center items-center px-3 buy-btn md:-bottom-28 lg:-bottom-52 mb-0 lg:mb-5 cursor-pointer text-center w-192 h-75 lg:w-384 lg:h-150 transform scale-75 md:scale-90"
             >
 
